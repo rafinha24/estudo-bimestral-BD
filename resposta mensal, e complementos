@@ -64,7 +64,7 @@ especialmente em consultas que envolvem strings.
 VEJA O EXEMPLO A ABAIXO:
 SELECT nome
 FROM alunos
-WHERE nome LIKE 'João%';
+WHERE nome LIKE '%João%';
 
 Padrões Comuns:
 %: Representa zero ou mais caracteres.
