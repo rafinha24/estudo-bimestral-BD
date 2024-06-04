@@ -98,3 +98,10 @@ SELECT
     ELSE FALSE
   END AS passou
 FROM alunos;
+
+
+AS: usado para renomear o nome da coluna da sua tabela
+
+POR EXEMPLO: 
+SELECT id AS identidade
+from alunos;
