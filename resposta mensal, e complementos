@@ -105,3 +105,22 @@ AS: usado para renomear o nome da coluna da sua tabela
 POR EXEMPLO: 
 SELECT id AS identidade
 from alunos;
+
+
+ORDER BY: sordenar os resultados de uma consulta em ordem crescente
+ou decrescente com base em uma ou mais colunas.
+
+VEJA O EXEMPLO ABAIXO:
+SELECT nome, idade
+FROM alunos
+ORDER BY idade DESC, nome ASC;
+
+UPDATE: atualiza dados,
+
+VEJA O EXEMPLO ABAIXO
+
+UPDATE materias_alunos (tabela que vc quer mudar)
+SET id = 1 (novo valor que vc quer adquirir)
+WHERE id = 41; (valor antigo mudado)
+
+
